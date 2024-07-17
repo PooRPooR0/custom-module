@@ -1,5 +1,5 @@
-import type {PostSliceType as CorePostSliceType} from 'CorePackage/entities/post/model/post-slice-initial-state'
-import {PostSliceInitialState as CorePostSliceInitialState} from 'CorePackage/entities/post/model/post-slice-initial-state'
+import type {PostSliceType as CorePostSliceType} from '@core/entities/post/model/post-slice-initial-state'
+import {PostSliceInitialState as CorePostSliceInitialState} from '@core/entities/post/model/post-slice-initial-state'
 
 export type PostSliceType = {
     someNewField: string

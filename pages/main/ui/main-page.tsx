@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import {Link} from "react-router-dom";
-import * as classes from 'CustomCore/pages/main/ui/main-page.module.css'
-import {a} from "CustomCore/pages/main";
+import * as classes from '@src/pages/main/ui/main-page.module.css'
+import {a} from "@src/pages/main";
 import {connect} from "react-redux";
-import {clearData, getPosts, Post} from "CustomCore/entities/post";
-import {ClearPostsButton} from "CustomCore/features/clear-posts";
+import {clearData, getPosts, Post} from "@src/entities/post";
+import {ClearPostsButton} from "@src/features/clear-posts";
 
 interface MainPageProps {
     posts: Array<Post>;

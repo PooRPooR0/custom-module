@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from "react-redux";
-import {clearData, Post} from "CustomCore/entities/post";
+import {clearData, Post} from "@src/entities/post";
 
 interface ClearPostsButtonProps {
     posts: Array<Post>;

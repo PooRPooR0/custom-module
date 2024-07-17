@@ -1,2 +1,2 @@
-import ClearPostsButton from 'CustomCore/features/clear-posts/ui/clear-posts-button'
+import ClearPostsButton from '@src/features/clear-posts/ui/clear-posts-button'
 export {ClearPostsButton}

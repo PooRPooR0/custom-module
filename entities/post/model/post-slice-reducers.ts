@@ -1,5 +1,5 @@
-import CorePostSliceReducers from "CorePackage/entities/post/model/post-slice-reducers";
-import {PostSliceType} from "CustomCore/entities/post";
+import CorePostSliceReducers from "@core/entities/post/model/post-slice-reducers";
+import {PostSliceType} from "@src/entities/post";
 
 const PostSliceReducers = {
     ...CorePostSliceReducers,
